@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ViaCep</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>ViaCep</h1>
+        <div>Contato</div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="form-section">
+        <div>
+          <form name="newAddress">
+            <div>
+              <label for="cep">CEP:</label>
+              <input type="text" name="cep" id="cep" placeholder="CEP" />
+            </div>
+
+            <div>
+              <label for="street"></label>
+              <input type="text" name="street" id="street" placeholder="Rua" />
+            </div>
+
+            <div>
+              <label for="logradouro"></label>
+              <input
+                type="text"
+                name="logradouro"
+                id="logradouro"
+                placeholder="Logradouro"
+              />
+            </div>
+
+            <div>
+              <label for="numero"></label>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Número"
+              />
+            </div>
+
+            <div>
+              <label for="cidade"></label>
+              <input
+                type="text"
+                name="cidade"
+                id="cicidade"
+                placeholder="Cidade"
+              />
+            </div>
+
+            <div>
+              <button>Salvar</button>
+              <button>Limpar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="list-section">
+        <div class="card">
+          <h3>São Paulo</h3>
+          <p>Rua dos Jardins, 720</p>
+          <p>11200-203</p>
+        </div>
+
+        <div class="card">
+          <h3>São Paulo</h3>
+          <p>Rua dos Jardins, 720</p>
+          <p>11200-203</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
